@@ -1,1 +1,4 @@
-{"header":"私のホームページへようこそ","subheader":"素晴らしい一日をお過ごしください{{userName}} ！"}
+{
+	"header": "私のホームページへようこそ",
+	"subheader": "すてきな一日を {{userName}}！"
+}

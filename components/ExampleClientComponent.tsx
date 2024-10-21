@@ -3,8 +3,8 @@
 import { useTranslation } from "react-i18next";
 
 export default function ExampleClientComponent() {
+	const userName = "John Doe";
 	const { t } = useTranslation();
-	const userName = "Keith";
 
-	return <h3 className="mt-6">{t("subheader", { userName })}</h3>;
+	return <h3>{t("subheader", { userName })}</h3>;
 }
